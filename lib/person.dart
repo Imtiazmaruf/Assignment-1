@@ -1,18 +1,12 @@
-
-
 abstract class Role{
   void displayRole();
 }
 class Person implements Role {
   String _name;
   int _age;
-
   var _address;
-
-  Person(this._name, this._age, this._address);
-
-
-  @override
+ Person(this._name, this._age, this._address);
+ @override
   void displayRole() {
   }
 }
