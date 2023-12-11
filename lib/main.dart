@@ -9,6 +9,6 @@ void main(){
   Teacher t = Teacher("Mrs.Smith", 35, "456 Oak St", 123004);
   t.displayRole();
   t.displayDetails();
-  t.courseTaught = ["-math","-English","-Bangla"];
+  t.courseTaught = ["Math","English","Bangla"];
   t.taught();
 }
